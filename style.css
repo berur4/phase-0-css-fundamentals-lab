@@ -3,3 +3,48 @@ body {
   height: 100%;
   margin: 0;
 }
+/* Center header text */
+header {
+  text-align: center;
+}
+
+/* Center image */
+#featured-property figure {
+  margin: 0 auto; /* Centers the element horizontally */
+}
+
+/* Style navigation links */
+nav a {
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #ddd; /* Change color as desired */
+  text-decoration: none; /* Remove underline */
+  color: black; /* Change text color as desired */
+}
+
+/* Style image caption */
+#featured-property figcaption {
+  font-size: 0.8em; /* Adjust font size */
+  text-align: center;
+}
+
+/* Center text block and set width */
+#featured-property p {
+  margin: 0 auto; /* Centers the element horizontally */
+  width: 800px;
+  padding: 10px; /* Add vertical space */
+  text-align: center;
+}
+
+/* Make details section horizontal */
+#details {
+  display: flex; /* Makes children elements display inline */
+  justify-content: space-around; /* Evenly distribute children */
+}
+
+/* Style details section divs */
+#details div {
+  background-color: #ddd; /* Change color as desired */
+  padding: 10px;
+  text-align: center;
+  width: 25%; /* Set width to 25% for each div */
+}
